@@ -9,15 +9,12 @@ function theBeatlesPlay (arrayOfMusicians, arrayOfInstruments) {
 
 function johnLennonFacts (arrayOfFacts) {
   var array = [];
+  var i = 0;
   while (array.length < arrayOfFacts.length) {
     array.push(arrayOfFacts[i] + "!!!");
     incrementVariable();
   }
   return array;
-}
-
-function incrementVariable() {
-  i = i + 1;
 }
 
 function iLoveTheBeatles (number) {
