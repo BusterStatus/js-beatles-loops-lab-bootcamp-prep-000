@@ -1,6 +1,4 @@
 // add solution here
-var i = 0;
-
 function theBeatlesPlay (arrayOfMusicians, arrayOfInstruments) {
     var array = [];
     for (var i = 0; i < arrayOfMusicians.length; i++) {
